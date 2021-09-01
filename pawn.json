@@ -1,0 +1,31 @@
+{
+	"user": "ZantetsukenGT",
+	"repo": "ugmp-dl-stdlib",
+	"runtime":
+	{
+		"plugins": ["ZantetsukenGT/ugmp-dl-stdlib"]
+	},
+	"resources":
+	[
+		{
+			"name": "ugmp-dl-linux.tar.gz",
+			"platform": "linux",
+			"archive": true,
+            "includes": ["include"],
+			"plugins": ["plugins/ugmp.so"],
+            "files": {
+                "ugmpdl.so": "ugmpdl.so"
+            }
+		},
+		{
+			"name": "ugmp-dl-win32.zip",
+			"platform": "windows",
+			"archive": true,
+            "includes": ["include"],
+			"plugins": ["plugins/ugmp.dll"],
+            "files": {
+                "ugmpdl.dll": "ugmpdl.dll"
+            }
+		}
+	]
+}
