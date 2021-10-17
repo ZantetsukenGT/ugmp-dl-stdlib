@@ -11,7 +11,6 @@
 			"name": "ugmp-dl-linux.tar.gz",
 			"platform": "linux",
 			"archive": true,
-            "includes": ["include"],
 			"plugins": ["plugins/ugmp.so"],
             "files": {
                 "ugmpdl.so": "ugmpdl.so"
@@ -21,7 +20,6 @@
 			"name": "ugmp-dl-centos.tar.gz",
 			"platform": "centos",
 			"archive": true,
-            "includes": ["include"],
 			"plugins": ["plugins/ugmp.so"],
             "files": {
                 "ugmpdl.so": "ugmpdl.so"
@@ -31,7 +29,6 @@
 			"name": "ugmp-dl-win32.zip",
 			"platform": "windows",
 			"archive": true,
-            "includes": ["include"],
 			"plugins": ["plugins/ugmp.dll"],
             "files": {
                 "ugmpdl.dll": "ugmpdl.dll"
