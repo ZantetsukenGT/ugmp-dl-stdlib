@@ -2,8 +2,8 @@
 Yet another sampctl repo for UGMP server files, but for UGMP-DL
 
 # How to Install?
-```pawn
-sampctl package install ZantetsukenGT/ugmp-dl-stdlib:0.1.0
+```ps1
+sampctl package install ZantetsukenGT/ugmp-dl-stdlib
 ```
 
 # Credits
